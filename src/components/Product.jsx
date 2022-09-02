@@ -4,7 +4,6 @@ import {
   ShoppingCartOutlined,
 } from "@material-ui/icons";
 import styled from "styled-components";
-import { popularProducts } from "../data";
 
 const Info = styled.div`
   opacity: 0;
@@ -71,9 +70,7 @@ const Product = ({ item }) => {
   return (
     <Container>
       <Circle />
-      {popularProducts.map((item) => (
-        <Product item={item} key={item.id} />
-      ))}
+      <Image src={item.img} alt=""></Image>
       <Info>
         <Icon>
           <ShoppingCartOutlined />

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import NavBar from "../components/NavBar";
 import NewsLetter from "../components/NewsLetter";
-import Product from "../components/Product";
+import Products from "../components/Products";
 import Footer from "../components/Footer";
 const Container = styled.div``;
 const Title = styled.h1`
@@ -18,25 +18,19 @@ const Filter = styled.div`
 `;
 const ProductList = () => {
   return (
-    <div>
-      anzal
-    </div>
-      /*
-    // <Container>
-       <NavBar /> 
+    <Container>
+      <NavBar />
       <Announcement />
-      
-      
+
       <Title>Dresses</Title>
-       <FilterContainer>
+      <FilterContainer>
         <Filter>Filter1</Filter>
         <Filter>Filter2</Filter>
       </FilterContainer>
-      <Product />
+      <Products />
       <NewsLetter />
-      <Footer/> 
-      // </Container>
-    */
+      <Footer />
+    </Container>
   );
 };
 export default ProductList;
