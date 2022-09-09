@@ -1,14 +1,13 @@
 import styled from "styled-components";
 import ProductList from "./pages/ProductList";
-// import Home from "./pages/Home";
-import Test from "./pages/Test";
+import Home from "./pages/Home";
+import Product from "./pages/Product";
+import Register from "./pages/Register";
 const App = () => {
   return (
     <AppStyled>
-
-      <ProductList />
-      {/* <Home/> */}
-      <Test/>
+      <Register />
+      {/* <Product /> */}
     </AppStyled>
   );
 };
