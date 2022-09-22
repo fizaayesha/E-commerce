@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import {mobile} from "../responsive"
 import ArrowLeftIcon from "@material-ui/icons/ArrowLeft";
 import ArrowRightIcon from "@material-ui/icons/ArrowRight";
 import { slideBarItems } from "../data";
@@ -7,9 +8,9 @@ const Container = styled.div`
   width: 100%;
   height: 85.6vh;
   display: flex;
-  /* background-color: #ff2a00; */
   position: relative;
   overflow: hidden;
+  ${mobile({display:"none"})}
 `;
 const Arrow = styled.div`
   width: 50px;
