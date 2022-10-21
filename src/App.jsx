@@ -5,13 +5,16 @@ import Product from "./pages/Product";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <AppStyled>
-      <Cart/>
+      {/* <Login/> */}
       {/* <Register /> */}
       {/* <Product /> */}
+      <NavBar/>
     </AppStyled>
   );
 };
