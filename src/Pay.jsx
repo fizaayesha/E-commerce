@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import StripeCheckout from "react-stripe-checkout";
 import axios from "axios";
-import {useHistory} from "react-router"
+import { useHistory } from "react-router-dom";
 const KEY =
   "pk_test_51M4kpZSGRPwNrFosa1Cn3R1sXXh4jWSzHqZ0Cly6d8B25OJg5R4pA8QRs0odcCoKAT5uSEvIS0PdDgDJxAGpCgSN007PP3zY8G";
 const Pay = () => {
